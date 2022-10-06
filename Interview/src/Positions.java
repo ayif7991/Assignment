@@ -14,6 +14,11 @@ public class Positions
         setLongitude();
         setHeight();
     }
+    public Positions(double a, double b, double c) {
+        this.latitude = a;
+        this.longitude = b;
+        this.height = c;
+    }
 
     public double getLatitude() {
         return latitude;
